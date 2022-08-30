@@ -1,1 +1,45 @@
 Initial commits
+
+::STATIC AND DYNAMIC::
+
+- referring to assigning variables.
+
+Static typing assign a type to declared variables at compile time and set aside the right amount of memeory. ((Java, C, Swift))
+Dynamic typing assign types only when the variable declaration code runs during execution and change the memory allocated for 
+the variable as needed. This comes at the cost of program speed while it reorganizes things. ((JavaScript, Python, and Ruby))
+
+Java has type declarations before the variable names.
+
+- complied language: goes through analysis and optimization before it is run. Process of compiling your code will result in bytecode files that you 
+can then execute using JRE
+::also platform independent
+
+- object oriented: java is an OOP language - classes
+- loosley coupled language - applications should be more flexible - different situations and different types of data.
+
+Languages are either interpretive languages or compiled languages
+
+Interpretive: like a recipe - read one instruction at a time, execute that step as soon as instructions are read.
+
+Compiled languages - like a recipe thats in a foreign language. Send instructions out to be translated before running. 
+Benefit - performance: faster and more efficient
+Drawback - Platform dependent meaning 
+More syntax and more considerations
+
+::Source code vs Machine code::
+
+Binary code - ones ad zeros - computer language.
+Human readable language ex: Java
+2 ways code can be interpreted (compiled or interpreted)
+
+javac - command 
+java - command 
+Java Runtime Environment - JVM -we write our sourecode as plain .java file (dot java file)
+java.util - library files
+
+bytecode - dot class when you run javac command. It's the same between different operating systems. (this means platform independent)
+
+jvm - interprets bytecode into machine code for that particular operating system.
+
+java code > compiled to bytecode > use javac in terminal to compiler > sends to jvm in order to run from your machine > goes through
+some things and eventually will run machine code from your respective operatiing system.
