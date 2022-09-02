@@ -1,0 +1,58 @@
+::SWITCH STATEMENTS AND TERNARY OPERATORS::
+
+int day = 2;
+switch(day){
+	case 1:
+		System.out.println("Monday");
+		break;
+	case 2:
+		System.out.println("Tuesday");
+		break;
+	case 3:
+		System.out.println("Wednesday");
+		break;
+	case 4:
+		System.out.println("Thursday");
+		break;
+	case 5:
+		System.out.println("Friday");
+		break;
+	case 6:
+		System.out.println("Saturday");
+		break;
+	case 7:
+		System.out.println("Sunday");
+		break;
+	default:
+		System.out.println("There are only seven days in a week...");
+}
+
+
+::Setupis different than if statements
+
+- start with the switch keyword and pass in the variable we are checking
+- inside switch, speficy what we want to happen for each possible case-prints out day of the week based on value of our day variable
+- includes a default keyword at the bottom which is equivalent to else keyword in an if statement 
+- need a break keyword after Default
+
+::ternary operators::
+
+-Allow us to write more concise code
+
+COMPARE else if statement with switch statement 
+
+ELSE IF :
+
+boolean isRaining = true;
+    
+if(isRaining) {
+    System.out.println("Bring an umbrella.");
+}
+else {
+    System.out.println("Have fun!");
+}
+
+SWITCH:
+System.out.println(isRaining ? "Bring an umbrealla" : "Have fun!");
+
+-The ternary operator consists of three pieces; the condition, the return value if the condition is true, and the return value if the condition is false.

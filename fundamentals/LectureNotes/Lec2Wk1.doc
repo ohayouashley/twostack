@@ -1,0 +1,24 @@
+boolean check = message.equals(message2); ::you want to use .equals when you're using objects 
+
+concatenation - // 
+
+looking at how a string combines different values of a string 
+
+//
+
+String firstName = "Ashley"
+String fullName = firstName + "Chase";
+System.out.println(fullName);
+
+//make sure to put space in between variable and string so that it doesn't just smash them all together. 
+
+When the met
+
+IN Java uses weird formatting template String.format(format:)
+
+Questions for dojo hall. - static type.
+Declaring a type each time? 
+Always have to stick to that same type. 
+Always guaranteed that the typej
+
+::VARIABLES::

@@ -1,0 +1,114 @@
+::CONDITIONALS & OPERATORS::
+
+Conditionals - if else statements and switch statements in conjunction with comparison operators and logical 
+operators to control the flow of the program. 
+
+::if statements::
+
+Java syntax:
+ if (condition) {
+    // what to do if condition is true (instructions if true)
+}
+// continue with program
+
+Ex:
+
+boolean isRaining = true;
+    
+if(isRaining) {
+    System.out.println("Bring an umbrella.");
+}
+
+// this will print to the console "bring an umbrella"
+
+::if/else chains::
+
+We can chain multiple conditions in if-else chain:
+
+Ex:
+
+if(condition) {
+    // what to do if condition is true (instructions if true)
+}
+else if(2nd condition) {        
+    // what to do if 2nd condition is true (instructions if 2nd condition is true)
+}
+// ... can have 0 to many else-if statements ...
+else {                           
+    // what to do if none of the previous conditions are met (catch-all)
+} // can have 1 or no else statement
+
+::if/else statement::
+
+ex: this is a statement which just has if and else not else if.
+
+boolean isRaining = true;
+    
+if(isRaining) {
+    System.out.println("Bring an umbrella.");
+}
+else {
+    System.out.println("Have fun!");
+}
+
+::if/else if/else statements::
+
+boolean isRaining = true;
+boolean isCold = true;
+    
+if(isRaining) {
+    System.out.println("Bring an umbrella.");
+}
+else if(isCold) {
+    System.out.println("Wear a coat.");
+}
+else {
+    System.out.println("Have fun!");
+}
+
+
+::assignment operator vs comparison operator::
+
+= : is the assignment operator ex: int count = 1; //assigns a value (the SET AS operator)
+
+::comparison::
+
+== equal 
+ex:
+int count = 1; //assigns value
+count == 1; // true
+count == 2; // false
+
+!= not equal
+
+> greater than
+
+< less than
+
+>= greater than or equal to
+<= less than or equal to
+
+::logical operators::
+
+&& AND both conditions must be true to be true
+ex:
+int age = 45;
+age < 65 && age > 17;
+//evaluates to true
+//(would pay adult price)
+
+age <110 && age > 65;
+//false//is not a senior nor immortal
+
+|| OR one of the conditions must be true
+ex:
+int age = 77;
+age < 10 || age > 65;
+//true
+//does care what people think
+
+! NOT 
+int age = 15;
+!(age <15)
+//true//may obtain drivers license.
+

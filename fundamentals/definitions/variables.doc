@@ -1,0 +1,62 @@
+::TYPE DECLARATION::
+
+    EVERY VARIABLE REQUIRES A TYPE DECLARATION WHEN WE INITIALIZE IT. This helps with speed and safety. 
+    Speed because all variables of same type require same amount of memory and by declaring the type at initialization, 
+    Java is able to allocate only the proper amount. Safety - helps us catch mistakes before initialization. 
+**When declaring a variable name use camel case. 
+**To assign a value to a variable use variableName = value;
+
+::Default values if uninitialized::
+int - 0
+double - 0.0
+boolean - false
+string - null
+
+
+::naming::
+- use camel case
+- don't use underscores
+- use descriptive names (aka no acronyms/shortened words)
+
+::object types::
+- wrapper classes adds functionality to primitive types
+-Class Double - java.lang library 
+||
+public class Variables {
+    public static void main(String[] args){
+        int ourInt; // we can declare a variable without setting its value
+        ourInt = 400; // we can assign a value to the variable later in our code
+        double pi = 3.14159265; // we can also declare and assign on the same line
+        boolean bool = true;
+        char singleCharacter = 'A';
+        
+        String multipleCharacters = "ABC";
+    }
+}
+||
+
+::Data types: Most used primitive types in Java::
+int - hold integers
+long - integers up to 2^63
+boolean - True or false
+double - floats
+char - characters used to store a single character ##does this mean that for 2 or more characters we would use String?##
+
+
+::object types & "wrapper classes":: ##object types??##
+
+A wrapper class is a more robust version that adds functionality to a primitive type and makes it easier to use 
+in conjunction with other object types or data structures like ArrayList. 
+
+Ex: 
+
+Integer - class wraps a alue of the primitive type int into an object
+Long - class wraps a value of the primitive type long into an object
+Boolean - class wraps a value of boolean prim type into object
+Double - class wraps a value of double primt type
+Character - class wraps value of char prim type
+
+Other object types:
+
+String - represents a sequence of characters, much like strings in other languages
+BigInteger - represents an integer that can be any size at all 
