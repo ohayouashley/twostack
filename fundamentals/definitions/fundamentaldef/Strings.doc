@@ -1,0 +1,24 @@
+::STRINGS::
+
+Commonly used methods in a string class.  
+
+- Length - strings have a method to determine their Length
+
+- concatenate - string method that allows two strings to be put together. Since each string is immutable, this results 
+
+- format - another way of concatenating strings
+
+- indexOf - searches left to right inside given string for 'target' string. THis method returns the index number where
+the target string is first found or -1 if the target is not found. 
+
+-trim - removes any trailing or leading white spaces from a string
+
+- uppercase and lowercase - the string class provides methods to lowercase and uppercase strings
+
+- equality - we can compmare the equality of a string in two ways. Do they refer to the exact
+same object or do they have the same exact sequence of characters.
+
+::When to use == and when to use equals()::
+
+*we use == in Java with objects we are comparing if both variables point to the same address
+and the same objet in memory.

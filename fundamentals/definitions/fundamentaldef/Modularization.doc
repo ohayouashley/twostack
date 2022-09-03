@@ -1,0 +1,11 @@
+::MODULARIZATION::
+
+**importing**
+
+to bring in code from another part of your applications (libraries etc..)
+
+1. importing - import statement (from framework or other libraries)
+2. dependency injection - creating an instance of another class
+    -create variable - give variable a name then = new Greetings
+    
+

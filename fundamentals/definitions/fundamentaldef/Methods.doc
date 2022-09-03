@@ -1,0 +1,31 @@
+::METHODS::
+
+Methods vs Functions
+
+A method is a function in Java and in OOP generally. A method is a function that belongs to a class. 
+**in Java you will only be dealing with methods and never stand alone functions. Even if function is referred to you'll always be using methods.
+
+Java method declaration
+
+Method signatures: every method has a signature.
+This method has a signature of guestGreeting(String, String). Notice that the only information contained in the signature is 
+public string guestGreeting(String name, String dayPeriod) {  
+-The name of the method
+-The parameter types
+
+public void coolMethodName(int someNumber, String someString) {
+//this would be a signature of coolMethodName(int, String)
+
+Method Overloading
+
+When we name two methods the same thing even though they may behave differently. 
+
+Ex:
+
+public String guestGreeting(String name) {
+
+public String guestGreeting(String name, String dayPeriod) {
+
+Which one would be executed if invoked? It depends on the methods used. In this case it would be guestGreeting(String, String)
+
+
