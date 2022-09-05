@@ -12,7 +12,7 @@ public class AlfredBot {
     }
     
     public String dateAnnouncement() {
-        // YOUR CODE HERE
+
         return String.format("Today is %s", new Date());
     }
     
