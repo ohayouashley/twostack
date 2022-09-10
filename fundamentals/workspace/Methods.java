@@ -1,4 +1,4 @@
-public class Methods {
-    public static void main(Strings[] args);
+// public class Methods {
+//     public static void main(Strings[] args);
 
-}
+// }
