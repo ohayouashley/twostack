@@ -1,0 +1,25 @@
+::What is the difference between OOP and Procedural programming?
+
+Procedural programming - is about writing procedures or methods that perform operations on the data. 
+
+OOP - object oriented programming: is about creating objects that contain both data and methods. 
+
+Object oriented programming has several advantages over procedural programming. 
+
+ETC
+0
+1. faster and easier to execute
+2. provides a clear structure for the programs
+helps to keep the Java code DRY and makes the code easier to maintain, modify, debug.
+4. makes it possible to create full reuseable applications with less code and shorter developement time. 
+
+Tip: The DRY princikdple is about reducing the repetition of code. You should extract out the codes that are common for the application,
+and place them at a single place and reuse them instead of repeating it. 
+
+Java - what are classes and objects? Classes and objects are the two main aspects of OOP.
+
+If a class is fruit an object would be apple, banana, mango.
+If a class is car an object is volvo auid and toyota
+
+A class is a template for objects and an object is an instance of a class. 
+When the individual objects are created they inherit all the variables and methods from the class. ß
