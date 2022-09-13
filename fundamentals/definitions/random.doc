@@ -1,0 +1,13 @@
+using the Random method.
+
+Must import method through java.util.Random.
+
+Must create an instance of Random 
+
+Syntax::
+
+Random randMachine = new Random();
+//here you can use any methods listed in documentation
+randMachine.setSeed(35679); // won't need to use this method
+
+
