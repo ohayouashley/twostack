@@ -1,0 +1,19 @@
+Object oriented programming is the most common programming paradigmn 
+
+-what is an Object
+-what is a class
+-how do we use them together
+-how to instantiate objects with custom initial values using a constructor method 
+-what is a constructor method
+-how to assign and re-assing different values to different instances of the same class
+-what is an access modifier
+how to make object instances interact with each other - is that what we did with the zoo keeper assginment
+-how to implement static methods that can be called from the class iself (rather than a particular instance).
+
+::OBJECT::
+
+-an object is a collection of behaviors and properties that all revolve around the same concept; this collection of behaviors and properties
+are called instance members. 
+-Objects are created from blueprints of pre-conceived code called classes. 
+
+both of the file names and the - class names need to match the class that your file is called. 
